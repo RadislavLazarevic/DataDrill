@@ -40,3 +40,8 @@ class HZZOSpider(scrapy.Spider):
             f.write(json_data)
 
         self.log('Svi listovi su uspešno spojeni i sačuvani u merged_data.json fajlu.')
+
+
+# Pycharm je otvoren, u konzoli smo instalirali uz komande pip install pandas, scrapy, 
+#zatim smo u konzolu uneli scrapy startproject myproject, posle tog smo usli u spider podfolder i tu kreirali
+#hzzo.py i u njemu smo napravili ovaj kod, pokrenuli kod u konzoli uz komandu scrapy crawl hzzo i spremili prva 4 excell sheeta u json.
