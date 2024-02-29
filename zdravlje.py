@@ -64,3 +64,7 @@ class ZdravljeSpider(scrapy.Spider):
         print("Saving PDF file as:", filename)
         with open(filename, 'wb') as f:
             f.write(response.body)
+
+#Ipak sam uspeo uraditi uz pomoć chatgpt, problem na koji sam nailazio bio je da uspe skinuti 1 eventualno 2 
+#excel i pdf fila i kada sam ubacio time stamp i vremensku odgodu na 1 minut, nakon toga skidao je 7-8 filova
+# i pretvarao ih je u json filove, 7-8 excel i pdf filova u jednom pokretanju, na ponovom pokretanju je skidao ponovo više fajlova
